@@ -1,0 +1,38 @@
+.learnScreen{
+    & .learnScreen_overview{
+        h4 {
+            text-align: center;
+        }
+    }
+    .quiz {
+        max-width: 720px;
+        margin: auto;
+        padding: 10px 2px;
+        background-color: #f8f8f8;
+        .process {
+            .process_bar {
+                height: 25px;
+                background: #E0E0E0;
+                border-radius: 17px;
+                text-align: left;
+                max-width: 720px;
+                margin: auto;
+                .process-element {
+                    background: linear-gradient(83.47deg, #FFCB08 9.02%, #FF9600 90.81%);
+                    width: 5%;
+                    height: 25px;
+                    border-radius: 16px;
+                    display: inline-block;
+                    position: relative;
+                    .process-icon{
+                        position: absolute;
+                        top:-8px;
+                        width: 38px;
+                        right: -20px;
+                    }
+                }
+            }
+        
+          }
+    }
+}

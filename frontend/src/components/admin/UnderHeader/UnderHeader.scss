@@ -1,0 +1,32 @@
+.underHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    & .underHeader_Link {
+        text-decoration: none;
+        color: green;
+        font-size: 16px;
+        font-weight: 400;
+        border: 1px solid green;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    & .underHeader_search{
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        padding: 2px 0 2px 6px;
+        & .underHeader_search-input {
+            outline: none;
+            border: none;
+        }
+        & .underHeader_search-icon{
+            padding: 0 5px;
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+        }
+
+    }
+}

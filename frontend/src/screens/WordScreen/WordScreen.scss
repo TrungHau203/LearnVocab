@@ -1,0 +1,41 @@
+.word-screen{
+    max-width: 720px;
+    margin: 0 auto;
+    
+    .header-words{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        .select-btn{
+            flex:1;
+            text-align: center;  
+            &:hover{
+                cursor: pointer;
+            }      
+            &.selected{
+                border-bottom: 8px solid #FFCB08;
+            }
+        }
+    }
+    .wordScrenn_search {
+        width: 220px;
+        margin: 8px auto;
+        
+        .underHeader_search{
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 2px 0 2px 6px;
+            & .underHeader_search-input {
+                outline: none;
+                border: none;
+            }
+            & .underHeader_search-icon{
+                padding: 0 5px;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

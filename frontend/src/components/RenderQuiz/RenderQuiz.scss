@@ -1,0 +1,55 @@
+.bg-answer-item {
+    background: #e0e0e0;
+    margin-top: 20px;
+    border-radius: 20px;
+    .answer-review-item-success {
+        background: #23AC38;
+        color: #fff;
+         margin-top: 20px; 
+        border-radius: 20px;
+         padding: 20px; 
+        padding: 12pt;
+        top: -5px;
+        position: relative;
+    }
+    .answer-review-item {
+        background: #FFF;
+         margin-top: 20px; 
+         box-shadow: 0 6px 0 #E6E6E6; 
+        border-radius: 20px;
+        padding: 20px;
+        padding: 12pt;
+        top: -5px;
+        position: relative;
+    }
+    .answer-review-item-error {
+        background: #EB5757;
+        color: #fff;
+        /* margin-top: 20px; */
+        border-radius: 20px;
+        /* padding: 20px; */
+        padding: 15pt;
+        top: -5px;
+        position: relative;
+    }
+}
+
+
+.item-game {
+    cursor: pointer;
+}
+
+.box-answer-3 {
+    border-radius: 20px;
+    margin-top: 10px;
+    background: linear-gradient(83.47deg, #FFCB08 9.02%, #FF9600 90.81%);
+    padding: 5px;
+    width: auto;
+    .list-answer-3 {
+        background: #fff;
+        width: auto;
+        border-radius: 15px;
+        // padding: 20px 40px;
+        padding: 12pt 20pt;
+    }
+}

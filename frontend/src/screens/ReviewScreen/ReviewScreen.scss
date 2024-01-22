@@ -1,0 +1,66 @@
+.review {
+    width: 720px;
+    margin: auto;
+    .process {
+        .process_bar {
+            height: 25px;
+            background: #E0E0E0;
+            border-radius: 17px;
+            text-align: left;
+            max-width: 720px;
+            margin: auto;
+            .process-element {
+                background: linear-gradient(83.47deg, #FFCB08 9.02%, #FF9600 90.81%);
+                width: 5%;
+                height: 25px;
+                border-radius: 16px;
+                display: inline-block;
+                position: relative;
+                .process-icon{
+                    position: absolute;
+                    top:-8px;
+                    width: 38px;
+                    right: -8px;
+                }
+            }
+        }
+    }
+}
+
+ 
+.div-submit-success {
+    position: relative;
+    width: 250px;
+    height: 42px;
+    border-radius: 50px;
+    background: #459724;
+    border: none;
+    margin: 18px auto;
+    min-width: 250px;
+    padding-left: -1px;
+    .btn-submit-success {
+        position: absolute;
+        background: #58bd2f;
+        height: 42px;
+        border-radius: 50px;
+        left: 1px;
+        font-size: 20px;
+        top: -6px;
+        width: 250px;
+        color: #fff;
+        border: none;
+    }   
+}
+
+.no_click {
+  background: #E0E0E0;
+  border: none;
+  height: 50px;
+  border-radius: 50px;
+  width: 250px;
+    margin:18px auto 0;
+  color: #828282;
+  font-style: normal;
+  font-weight: bold;
+}
+

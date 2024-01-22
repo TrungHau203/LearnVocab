@@ -1,0 +1,28 @@
+.overView{
+    // position: relative;
+    margin: 10px auto 60px;
+    .overView-img{
+        // position: absolute;
+        margin: auto;
+        width: 180px;
+        img {
+            width: 100%;
+
+        }
+    }
+    .limit-height{
+        overflow-y: scroll;
+        height: 40vh;
+        max-width: 700px;
+        margin: auto;
+        .checkAnswer{
+            .trueIcon{
+                color: green;
+            }
+            .falseIcon{
+                color: red;
+    
+            }
+        }
+    }
+}

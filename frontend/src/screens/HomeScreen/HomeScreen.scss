@@ -1,0 +1,17 @@
+.homeScreen{
+    // margin-left: ;
+    display: flex;
+    justify-content: space-between;
+    .homeScreen_empty{
+        width: 280px;
+        margin-right: 40px;
+    }
+    .homeScreen_achievement{
+         width: 180px;
+    }
+    .homeScreen_chart{
+        max-width: 720px;
+        display: flex;
+    }
+    
+}

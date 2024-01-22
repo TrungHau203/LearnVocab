@@ -1,0 +1,34 @@
+.loginScreen {
+    .login__boxTitle {
+        margin: 30px auto;
+        text-align: center;
+        width: 100%;
+    }
+    .button__social {
+        border-radius: 25px;
+        height: 50px;
+        margin: 10px auto 15px;
+        position: relative;
+        width: 280px;
+        .button__social__box {
+            border-radius: 25px;
+            cursor: pointer;
+            height: 100%;
+            width: 100%;
+            p {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 50px;
+            }
+        }
+        .google__box {
+            background-color: #d21919;
+        }
+        .login__switch {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 20px auto;
+        }
+    }
+}

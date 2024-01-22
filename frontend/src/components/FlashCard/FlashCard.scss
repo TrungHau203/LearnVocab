@@ -1,0 +1,113 @@
+  .flashCard {
+    margin: 10px auto 0;
+    text-align: center;
+    .volume {
+        color: #FF9701;
+        padding: 0 24px 6px;
+        height: 44px;
+        font-size: 36px;
+        border-radius: 50%;
+        border: none;
+        position: relative;
+        top: 23px;
+        z-index: 10;
+        .icon {
+            position: absolute;
+            top: 6px;
+            right: 6px;
+        }
+    }
+  }
+
+  .cards-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .cards {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: .5rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+    background-color: white;
+    transform-style: preserve-3d;
+    transition: 150ms;
+    cursor: pointer;
+    width:270px;
+    height: 66vh;
+    transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+    .hand-icon {
+        position: absolute;
+        bottom: -12px;
+        left: -2px;
+        width: 32px;
+    }
+  }
+  
+  .cards:hover {
+    --translate-y: -2px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+  }
+  
+  .cards.flip {
+    --rotate-y: 180deg;
+  }
+  
+  .cards .front {
+    left: 0;
+  }
+  
+  .cards .front,
+  .cards .back {
+    position: absolute;
+    padding: 1rem;
+    backface-visibility: hidden;
+  }
+  
+  .cards .back {
+    transform: rotateY(180deg);
+  }
+  
+.div-submit-success {
+    padding: 0 6px;
+    position: relative;
+    width: 250px;
+    height: 42px;
+    border-radius: 50px;
+    background: #459724;
+    border: none;
+    margin: 18px auto;
+    min-width: 250px;
+    padding-left: -1px;
+    .btn-submit-success {
+        position: absolute;
+        background: #58bd2f;
+        height: 42px;
+        border-radius: 50px;
+        left: 1px;
+        font-size: 20px;
+        top: -6px;
+        width: 250px;
+        color: #fff;
+        border: none;
+    }   
+}
+
+.no_click {
+  background: #E0E0E0;
+  border: none;
+  height: 50px;
+  border-radius: 50px;
+  width: 250px;
+    margin:18px auto 0;
+  color: #828282;
+  font-style: normal;
+  font-weight: bold;
+}
+
+

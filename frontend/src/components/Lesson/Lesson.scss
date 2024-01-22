@@ -1,0 +1,30 @@
+.box-lesson{
+    max-width: 720px;
+    margin: 10px auto;
+
+    .lesson{
+        position: relative;
+        top: -5px;
+        box-shadow: 5px 5px 5px rgba(189, 189, 189, 0.25);
+        border-radius: 20px;
+        background: #e0e0e0;
+        & p, h2 {
+            margin: 0;
+            text-align: center;
+        }
+        & .lesson-item-active{
+            background: linear-gradient(269.83deg, #26AE38 0.14%, #59CD05 99.86%) !important;
+            color: #f8f8f8;
+        }
+        & .lesson-item {
+            background: #F8F8F8;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            
+        }
+    }
+    .lesson-active{
+        background: #4da936!important;
+    }
+}

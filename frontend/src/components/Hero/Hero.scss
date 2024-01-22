@@ -1,0 +1,33 @@
+.hero {
+    .row {
+      & .hero-row_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 150px;
+        img {
+            margin-right: 50px;
+        }
+      }
+      .hero-row_item {
+        margin-right: 100px;
+        
+        p {
+          color: rgba(91, 45, 17, 1);
+          font-weight: bold;
+          font-size: 22px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+        .row {
+          & .hero-row_box {
+            display: block;
+          }
+        }
+    }  
+  }
+  
+  

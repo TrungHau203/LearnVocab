@@ -1,0 +1,19 @@
+.achivement{
+    width: 180px;
+    .achivement_item{
+        margin: 40px 20px;
+        display: flex;
+        align-items: center;
+        background-color: #ccc;
+        border-radius: 10px;
+        padding: 2px;
+        img {
+            width: 72px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .achivement{
+        display: none;
+    }
+  }
